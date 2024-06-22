@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="apply.css">
+    <title>Apply</title>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+                <header>Apply for the job</header>
+            </div>
+
+            <form action="/apply" method="POST" enctype="multipart/form-data">
+                <div class="input-field">
+                    <input type="text" class="input" name="username" placeholder="Username" required>
+                    <i class="bx bx-user"></i>
+                </div>
+                <br>
+                <div class="input-field">
+                    <input type="email" class="input" name="email" placeholder="Email" required>
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <br>
+                <div class="input-field">
+                    <input type="text" class="input" name="phoneNo" placeholder="Phone No" required>
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <br>
+                <div class="input-field">
+                    <input type="file" class="input" name="resume" placeholder="Upload Resume" accept=".pdf,.doc,.docx" required>
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <br>
+                <div class="input-field">
+                    <input type="submit" class="submit" value="Apply">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

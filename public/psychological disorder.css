@@ -1,0 +1,141 @@
+.page1 img{
+    float: left;
+    width:20%;
+    height:20%;
+    border-radius:50%;
+}
+.box1{
+    background-color: #1c2675;
+    width:80%;
+    height:30%;
+    padding:20px;
+    color:white;
+}
+.box2{
+    background-color:darkcyan;
+    width:80%;
+    height:30%;
+    padding:20px;
+    color:black;
+}
+.page1{
+    column-count:3;
+    column-gap:1cm;
+}
+.heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(7, 7, 86);
+    text-align: center;
+    padding:30px;
+}
+.heading h1{
+    font-size:4em
+}
+.mid{
+    text-align: center;
+background-color: #ffe4e1;
+padding: 40px 20px;
+}
+.divi{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+.divi1{
+    background-color: white;
+border-radius: 8px;
+padding: 20px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+width: 250px;
+text-align: center;
+}
+.mid h1{
+font-size: 32px;
+margin-bottom: 10px;
+}
+.mid p{
+font-size: 18px;
+margin-bottom: 30px;
+}
+.divi1 h2 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.divi1 p {
+font-size: 16px;
+color: #555;
+}
+.sample{
+text-align:center;
+color:rgb(7, 7, 86);
+padding:30px;
+}
+.sample h2{
+font-size: 3em;
+}
+.sample p{
+font-size:larger;
+}
+.foo1 h4 {
+margin-bottom: 20px;
+}
+.foo1{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(7, 7, 86);
+    text-align: center;
+    padding:30px;
+    background-color:  #ffe4e1;
+}
+
+.foo1 h4 {
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+.foo1 p {
+font-size: 18px;
+margin: 0;
+}
+
+.foot1 {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.item h3 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.item p {
+font-size: 16px;
+margin: 0;
+line-height: 1.5;
+}
+.item{
+background-color:rgb(7, 7, 86);
+color:white;
+width:20%;
+padding:1%;
+}
+.foot{
+display: flex;
+column-gap:1cm;
+}
+button{
+background-color: rgb(7, 7, 86);
+color: #fff;
+padding: 0.75rem 1.5rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1rem;
+}
+img{
+border-radius: 50%;
+top:70px;
+float:left;
+}
